@@ -1,0 +1,110 @@
+.cart {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.cart h2 {
+  text-align: center;
+  font-size: medium;
+}
+.cart-table {
+  margin: 1em 1em 1em 1em;
+  width: 70vw;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  text-align: justify;
+  vertical-align: text-top;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 0.2em solid black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.cart-header-item {
+  margin-bottom: 0.2em;
+  font: bolder;
+  font-size: medium;
+}
+.cart-item-element {
+}
+.Billing {
+  text-align: center;
+  background-color: #fff2e6;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border: 0.1em solid black;
+  border-radius: 1em;
+  width: 20vw;
+  height: 16rem;
+  margin-top: 1rem;
+}
+.Billing h4 {
+  font-size: 2rem;
+  font: bold;
+  margin-bottom: 0.5em;
+}
+.Billing span {
+  font-size: 1.5rem;
+}
+.Billing button {
+  padding: 0.2em;
+  border-radius: 0.2rem;
+  height: 3em;
+  width: 10em;
+  margin-top: 1rem;
+  border: none;
+  background-color: #ff881a;
+  color: #fff2e6;
+  margin-bottom: 0.5rem;
+  transition: ease;
+}
+.pay-images {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.pay-images img {
+  height: 2rem;
+  width: 3rem;
+}
+.Billing div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.Billing button:hover {
+  cursor: pointer;
+  outline: auto black;
+}
+.cart-quantity input {
+  border: none;
+  border-bottom: 0.1em solid black;
+  outline: none;
+  margin-right: 1em;
+}
+.cart-quantity button {
+  background-color: #ff5c33;
+  color: white;
+  border: none;
+  border-radius: 0.3em;
+  height: 2em;
+  padding: 0.5em;
+}
+.major {
+  display: flex;
+}
+.cart-quantity button:hover {
+  cursor: pointer;
+  border: 0.5em;
+}
+.cart-quantity input:focus {
+  border-bottom: 0.2em solid black;
+}
