@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
+import { ShopItemsComponent } from './shop-items/shop-items.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {MatListModule} from '@angular/material/list';
     LoginComponent,
     CartComponent,
     CardsComponent,
-    HomeComponent
+    HomeComponent,
+    ShopItemsComponent
   ],
   imports: [
     BrowserModule,
